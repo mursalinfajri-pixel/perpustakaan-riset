@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perpustakaan Online Riset & Inovasi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 font-sans text-gray-900">
 
+    <nav class="bg-blue-900 text-white p-4 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-xl font-bold tracking-wide">💡 RISNOV LIBRARY</h1>
+            <span class="text-sm bg-blue-700 px-3 py-1 rounded-full">Pusat Inovasi</span>
+        </div>
+    </nav>
+
+    <header class="bg-gradient-to-r from-blue-800 to-indigo-900 text-white py-12 px-4 text-center">
+        <h2 class="text-3xl md:text-4xl font-extrabold mb-4">Akses Hasil Riset & Inovasi Terkini</h2>
+        <p class="text-blue-200 max-w-2xl mx-auto mb-6">Platform digital untuk menjelajahi jurnal, publikasi ilmiah, dan proyek inovasi masa depan.</p>
+        
+        <div class="max-w-md mx-auto flex gap-2">
+            <input type="text" id="searchInput" placeholder="Cari judul riset atau penulis..." class="w-full px-4 py-2 rounded-lg text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-400">
+        </div>
+    </header>
+
+    <main class="container mx-auto my-10 px-4">
+        <div class="flex gap-2 mb-6 overflow-x-auto pb-2">
+            <button onclick="filterKategori('Semua')" class="bg-blue-600 text-white px-4 py-1.5 rounded-full text-sm font-medium hover:bg-blue-700">Semua</button>
+            <button onclick="filterKategori('Teknologi')" class="bg-white border text-gray-700 px-4 py-1.5 rounded-full text-sm font-medium hover:bg-gray-100">Teknologi</button>
+            <button onclick="filterKategori('Sains')" class="bg-white border text-gray-700 px-4 py-1.5 rounded-full text-sm font-medium hover:bg-gray-100">Sains</button>
+            <button onclick="filterKategori('Ekonomi')" class="bg-white border text-gray-700 px-4 py-1.5 rounded-full text-sm font-medium hover:bg-gray-100">Ekonomi</button>
+        </div>
+
+        <div id="katalogGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="text-center col-span-full py-10 text-gray-500">Memuat data riset...</div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 text-gray-400 text-center py-6 mt-12 border-t border-gray-700">
+        <p>&copy; 2026 Perpustakaan Riset & Inovasi. Built with Dynamic JavaScript.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
