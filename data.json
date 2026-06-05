@@ -1,1 +1,29 @@
-
+[
+  {
+    "id": 1,
+    "judul": "Pemanfaatan AI untuk Deteksi Dini Hama Padi",
+    "penulis": "Dr. Ahmad Subarjo",
+    "kategori": "Teknologi",
+    "tahun": "2025",
+    "abstrak": "Riset ini membahas implementasi Computer Vision berbasis Convolutional Neural Networks (CNN) untuk mendeteksi hama pada daun padi secara real-time melalui aplikasi mobile.",
+    "link": "#"
+  },
+  {
+    "id": 2,
+    "judul": "Analisis Ekonomi Hijau di Sektor Energi Terbarukan",
+    "penulis": "Prof. Siti Aminah",
+    "kategori": "Ekonomi",
+    "tahun": "2026",
+    "abstrak": "Studi komprehensif mengenai dampak investasi panel surya terhadap pertumbuhan ekonomi mikro di wilayah pesisir Indonesia.",
+    "link": "#"
+  },
+  {
+    "id": 3,
+    "judul": "Sintesis Material Graphene dari Limbah Batok Kelapa",
+    "penulis": "Rian Hidayat, M.Sc",
+    "kategori": "Sains",
+    "tahun": "2024",
+    "abstrak": "Inovasi pembuatan graphene berkualitas tinggi dengan metode ramah lingkungan memanfaatkan biomassa lokal.",
+    "link": "#"
+  }
+]
